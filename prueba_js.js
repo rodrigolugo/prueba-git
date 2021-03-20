@@ -1,2 +1,6 @@
-let nombre = "pedro";
-alert("hola como estas" + nombre);
+function saludar(nombre) {
+    alert("hola como estas" + nombre);
+}
+
+saludar("pedro");
+saludar("marlen");
